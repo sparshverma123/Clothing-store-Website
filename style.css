@@ -44,6 +44,7 @@ ul{
   width: 80%;
   position: relative;
 /*  background: red;*/
+margin-bottom: 20px;
 
   margin-left: auto;
 }
@@ -286,5 +287,87 @@ nav h2{
   padding: 12px 24px;
   background: tomato;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1rem;
+}
+
+/*footer conatact section*/
+
+.footer{
+  width: 100%;
+  padding: 70px 50px 30px 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact{
+  padding: 20px;
+  flex-direction: column;
+  width: 40%;
+/*  background: red;*/
+  text-align: center;
+  gap: 10px;
+
+}
+
+.contact form{
+  width: 100%;
+/*  background: yellow;*/
+  padding: 0px 20px 20px 20px;
+}
+
+.contact form input{
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  margin-block: 10px;
+}
+
+#submit{
+  width: 100%;
+  padding: 5px;
+  background: black;
+  color:white;
+  font-weight: bolder;
+  border: none;
+}
+
+
+/*about section*/
+
+.about{
+  text-align: center;
+/*  background: red;*/
+  width: 20%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about ul{
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about ul li a{
+  text-decoration: underline;
+  letter-spacing: 2px;
+  color:black;
+}
+
+
+/*store section*/
+
+.store{
+  padding: 20px;
+/*  background: red;*/
+}
+
+.store h4{
+  margin-bottom: 10px;
+}
+
+.store a{
+  color: black;
+  display: inline-block;
+  margin-block: 5px;
 }
