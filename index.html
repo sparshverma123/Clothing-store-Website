@@ -16,8 +16,8 @@
 			<ul>
 				<li><a href="#">Shirts</a></li>
 				<li><a href="#">Dresses</a></li>
-				<li><a href="#" style="font-weight: bolder;">Jeans <i class="fa-solid fa-caret-down"></i></a>
-					<ul style="display: none;">
+				<li><a href="#" style="font-weight: bolder;" onclick="togglebtn()" id="btn">Jeans <i class="fa-solid fa-caret-down"></i></a>
+					<ul id="list">
 						<li><a href="#">Skinny <i class="fa-solid fa-caret-down fa-rotate-270"></i></a></li>
 						<li><a href="#">Relaxed</a></li>
 						<li><a href="#">Straight</a></li>
@@ -201,5 +201,21 @@
 
 
 <script src="https://kit.fontawesome.com/18d5e5a3ba.js" crossorigin="anonymous"></script>
+<script>
+		function togglebtn(){
+			let btn = document.getElementById('btn');
+			let list = document.getElementById('list');
+		if(list.style.display != 'none'){
+			list.style.display = 'none';
+		}
+		else{
+			list.style.display = 'block';
+
+		}
+
+	}
+		 
+
+</script>
 </body>
 </html>
