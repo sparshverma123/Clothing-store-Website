@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=PT+Sans:wght@400;700&family=Poppins:wght@300;700&family=Roboto:wght@400;700&family=Ubuntu:wght@500&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*default elements*/
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*custom variables*/
+:root{
+  --hover-color:#ccc;
+  --btn-bg-color:black;
+  --shadow-text:0px 0px 8px black;
+  --box-shadow:0px 0px 7px black;
+  --bold:lighter;
+}
+
+/*Utility Classes*/
+
+.flex{
+  display: flex;
+}
+
+.main-container{
+  width: 80%;
+  position: relative;
+/*  background: red;*/
+
+  margin-left: auto;
+}
+
+.container{
+  box-shadow: var(--box-shadow);
+  width: 92%;
+  margin-right:auto;
+  margin-left: 20px;
+/*  background: yellow;*/
+}
+
+
+
+
+
+
+
+/*side bar*/
+
+#sidebar{
+  width: 20%;
+  height: 100vh;
+/*  background: red;*/
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+  overflow: auto;
+  position: fixed;
+
+}
+
+#sidebar h1{
+  text-align: center;
+  color: black;
+/*  text-shadow: var(--shadow-text);*/
+  padding-block:  5px 10px;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+#flinks{
+  margin-left: auto;
+  width: 90%;
+/*  background: yellow;*/
+  margin-block: 20px;
+  font-size: 1.5rem;
+}
+
+#flinks ul{
+  width: 100%;
+/*  background: pink;*/
+  padding: 10px 10px;
+}
+
+#flinks ul li{
+  margin-block: 17px;
+}
+
+#flinks ul li a{
+/*  background: red;*/
+  display: block;
+  color:black;
+  transition: all 0.3s ease-out;
+  padding: 5px 10px;
+}
+
+#flinks ul li a:hover{
+  background: var(--hover-color);
+  font-weight: bolder;
+}
+
+
+/*second links*/
+#slinks{
+/*  background: red;*/
+
+}
+
+#slinks ul li{
+  margin-block: 10px;
+  font-size: 1.2rem;
+}
+
+#slinks ul li a{
+  color:black;
+  background: var(--hover-color);
+  display: block;
+  text-align: center;
+  padding:3px 10px;
+  transition: 0.3s ease;
+}
+
+#slinks ul li a:hover{
+  background: black;
+  color:white;
+}
+
+
+
+
+/*navigation bar*/
+
+nav{
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+/*  position: sticky;*/
+/*  top: 0;*/
+/*  box-shadow: var(--box-shadow);*/
+}
+
+nav h2{
+  font-weight: var(--bold);
+  letter-spacing: 3px;
+}
+
+#nav-icons i{
+  font-size: 1.3rem;
+  margin-inline: 3px;
+
+}
+
+
+/*banner section*/
+
+.banner{
+  width: 100%;
+  min-height: 100vh;
+  background: url('img/asset 0.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color:white;
+
+}
+
+.banner h1{
+  font-size: 3.6rem;
+  margin-bottom: 15px;
+
+
+}
+
+.banner h2{
+  font-size: 2.1rem;
+  margin-bottom: 20px;
+
+}
+
+.banner a{
+  background: black;
+  padding: 12px 20px;
+  color: white;
+
+}
+
+.banner a:hover{
+  background: var(--hover-color);
+  color: black;
+}
