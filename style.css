@@ -226,6 +226,7 @@ nav h2{
   gap: 5px;
   padding-inline: 10px;
   flex-wrap: wrap;
+  cursor: pointer;
   justify-content: space-evenly;
 }
 
@@ -245,4 +246,45 @@ nav h2{
 
 .card-item h2{
   font-size: 1.2rem;
+}
+
+.card-item img:hover{
+  filter: grayscale(40%);
+}
+
+
+/*subscribe section*/
+
+.subs{
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 60px 20px 60px 20px;
+}
+
+.subs h1{
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subs p{
+  margin-bottom: 10px;
+}
+
+.subs input{
+  width: 100%;
+  border: none;
+/*  box-shadow: 0px 0px 10px black;*/
+  height: 50px;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.subs a{
+  padding: 12px 24px;
+  background: tomato;
+  color: white;
+  font-size: 1.3rem;
 }
