@@ -204,3 +204,45 @@ nav h2{
   background: var(--hover-color);
   color: black;
 }
+
+
+
+/*items section*/
+
+#items{
+  width: 100%;
+  padding: 4px;
+  margin-block: 5px;
+  color:tomato;
+  font-style: italic;
+}
+
+
+/*card section*/
+
+.card{
+  width: 100%;
+  height: auto;
+  gap: 5px;
+  padding-inline: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-item{
+  width: 22%;
+}
+
+.card-item img{
+  width: 100%;
+  filter: grayscale(60%);
+}
+
+.card-item h1{
+  font-size: 1.4rem;
+
+}
+
+.card-item h2{
+  font-size: 1.2rem;
+}
