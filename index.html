@@ -43,6 +43,10 @@
 	<!-- navigation bar -->
 	<div class="main-container">
 		<div class="container">
+			<div class="logo-header flex">
+				<h1>LOGO</h1>
+				<span><i class="fa-sharp fa-solid fa-bars" id="sidebtn" onclick="toggleside()"></i></span>
+			</div>
 			
 			<!-- navigation bar -->
 
@@ -203,7 +207,6 @@
 <script src="https://kit.fontawesome.com/18d5e5a3ba.js" crossorigin="anonymous"></script>
 <script>
 		function togglebtn(){
-			let btn = document.getElementById('btn');
 			let list = document.getElementById('list');
 		if(list.style.display != 'none'){
 			list.style.display = 'none';
@@ -214,7 +217,18 @@
 		}
 
 	}
-		 
+	
+	function toggleside(){
+			let bar = document.getElementById('sidebar')
+		if(bar.style.display != 'none'){
+			bar.style.display = 'none';
+		}
+		else{
+			bar.style.display = 'block';
+
+		}
+
+	}	 
 
 </script>
 </body>

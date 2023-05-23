@@ -1,0 +1,39 @@
+/*media query for tablet and all*/
+
+@media screen and (max-width:995px){
+	.logo-header{
+		display: flex;
+	}
+
+/*card items images text etc*/
+	.card-item{
+		width: 45%;
+		gap: 10px;
+		margin-block: 10px;
+	}
+/* sidebar 	*/
+	#sidebar{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 30%;
+		z-index: 1;
+		background: white;
+		height: 100%;
+/*		display: none;*/
+	}
+
+/*container*/
+	.main-container{
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+
+	}
+
+	.container{
+		width: 100%;
+		margin: 0 auto;
+
+	}
+}
