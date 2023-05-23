@@ -73,6 +73,10 @@ margin-bottom: 20px;
   box-shadow: var(--box-shadow);
   overflow: auto;
   position: fixed;
+  z-index: 100;
+  background: white;
+  
+
 
 }
 
