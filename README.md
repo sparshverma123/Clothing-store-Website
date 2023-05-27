@@ -18,8 +18,8 @@ Fashion Avenue is an immersive online shopping experience that offers a wide ran
 
 Include screenshots or GIFs showcasing the website's user interface and features.
 ![Header of Website](header.png)
-![Header of Website](card-section.png)
-![Header of Website](footer-section.png)
+![card-section of Website](card-section.png)
+![footer-section of Website](footer-section.png)
 
 
 ## Usage
